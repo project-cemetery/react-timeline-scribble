@@ -1,7 +1,7 @@
 {
   "name": "react-timeline-scribble",
   "version": "0.1.0",
-  "description": "React timeline component",
+  "description": "React Timeline component",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,18 +22,19 @@
   "keywords": [
     "timeline"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/TheNovel/react-timeline-scribble"
+  },
   "license": "MIT",
   "dependencies": {
-    "css-loader": "^0.28.8",
     "emotion": "^8.0.12",
-    "file-loader": "^1.1.6",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "style-loader": "^0.19.1",
-    "webpack": "^3.10.0"
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
+    "webpack": "^3.10.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
