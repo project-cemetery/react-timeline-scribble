@@ -52,7 +52,7 @@ export default {
     height: 1em;
   `,
   body: css`
-    padding: 2em;
+    padding: 2em 2em 0 2em;
     position: relative;
     top: -1.875em;
     left: 4em;

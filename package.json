@@ -1,6 +1,6 @@
 {
   "name": "react-timeline-scribble",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "React Timeline component",
   "main": "build/index.js",
   "scripts": {
