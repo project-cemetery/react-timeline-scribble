@@ -1,10 +1,11 @@
 {
   "name": "react-timeline-scribble",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "React Timeline component",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "scripts": {
-    "build": "parcel build src/index.jsx"
+    "build": "babel src -d build",
+    "prepublish": "yarn build"
   },
   "author": "Igor Kamyshev",
   "keywords": [
@@ -21,8 +22,8 @@
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.5.1"
+    "babel-preset-react": "^6.24.1"
   }
 }
