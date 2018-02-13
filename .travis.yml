@@ -1,13 +1,17 @@
 language: node_js
-
 node_js:
-- node
-- '9'
-
+  - node
+  - '9'
 before_install:
-- curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.3.2
-- export PATH="$HOME/.yarn/bin:$PATH"
-
-script: "yarn build"
-
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.3.2
+  - export PATH="$HOME/.yarn/bin:$PATH"
+script: yarn build
 cache: yarn
+deploy:
+  provider: npm
+  email: "garik.novel@gmail.com"
+  api_key:
+    secure: PABblN9ZRwS3Txl4f00Srj7GYCdM9ysv3NAnjeBK6IPxYvgIT0i6rAQlMkzOTnG5F0umKfQhE0Ivsqg5Roboff95LS/I7iM9eJlcoN/MjkuZ7gRy/BdRQEVexPCUmUpmRBEidwAlOoLDZf7dAu/kYSvLen/b0v6YLQgIyzVwi7CiSPaxAHe82GUhzUE1wfT2W8e78c80c5zH48WX6mTiDHp7rphqqiUEyuxbtRwN28LI8NL7o0wEYx02YAGfgdQy3yxC4YWJ/Y9SH8POgp4Z/ezCaD+dTJH5EXyZK/RE/8uVB6S5ouWm+L0dTmlaM/K3kpfXcp1FtZrlGJCmQApx2bes8JnltYBwDfAAttnYEufomGDRbXocYuOwddlw8FuRKRb6c7Cv1roaZdiixxa4/ZfEg7HAFpcpH2+J7njyR83fhDzrAvv9Bq94pn1udh6OblPhCMQXquCLyfM8v/LJQPh2OfKmDtccdsmzlsDakAaRUWfGOH0VpT26suMMNQ9Al9euJ5XurQxLQ7/GnwnwChR5uxXSNGzbDz+OG6TY6koLIcjoREx+rCzy7bk22ZF/ZB3zl0eTLh9nBwsMJXrA/DJVgNL0cLo9qcHpzv0ud5UvpIhVbu+aNGbQDjETTRBBxOk/c+nhif9MhqkN/nFkX8ethDHSxlvGN/AXBtSscJk=
+  on:
+    tags: true
+    repo: TheNovel/react-timeline-scribble
