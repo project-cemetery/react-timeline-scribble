@@ -3,3 +3,6 @@
 
 # react-timeline-scribble
 React Timeline component
+
+## Install
+`yarn add react-timeline-scribble`
