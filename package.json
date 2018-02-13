@@ -1,6 +1,6 @@
 {
   "name": "react-timeline-scribble",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React Timeline component",
   "main": "dist/index.js",
   "scripts": {
@@ -17,7 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "emotion": "^8.0.12",
-    "react": "^16.2.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
