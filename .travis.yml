@@ -1,13 +1,13 @@
 language: node_js
+
 node_js:
 - node
 - '8'
+
 before_install:
 - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.3.2
 - export PATH="$HOME/.yarn/bin:$PATH"
+
+script: yarn build
+
 cache: yarn
-deploy:
-  api_key:
-    secure: YLxFSxmjXRLLowcin2vnQd2d4qkzqC0aI8XEn5IxKFujk+pRiLSAGIq8SglgVywPpx1N508IoFObxRPMQvgoY7s+UL00AWcrzmYI6mUkddpvxNlT0m59ZbrmGwxW/+tGXtIPWXtkZ0NgbV4WQgPubqrZinv7Bgv63wXFiClOeVRFOvTaiUISYy8IBcp1gjoz4PCKaVxQer6gnaNJ04BPsXP4vZLo9adW0xG1wlQ5B/RTIlpaHVabz7ger8KmiBxPRC4Mu+UBIEVW9a5L5G9t6FqayURYJcD706t95LyB7GObtdh+IpQaExqQNNnbTq4ZA1IRlN4NIjOlPmo/TCmt+WUNY4aYEpop40xlxlJ6DYQA8iFNa+ldMwI6olF3X5xy2YpjbX+ecoEoh43udm2crVn5+1+x1frM5j3oRUpeAvYklq66XqeSItex1nciVbLJ0a5ZeM09YGdNJwn9ZIoBJ4d37dU9liQtOPu8gvZP6SMLMfMuU9D5musPvrB0y1oqwkqCE1aJsCH/7jlc60ylLBV7JYwHbSIbdlIj7eAkpivV5iFc30cPXJtguh2rVYaGU0BAvPhGb7tdKLp/HLey0W1qPtbqExLi+ui6/V5rqRCOGK8eZmSnSDA+suWV0ghQkC9OeGMVn0gRVirm1I6uaO5saV+fdghAGcxTWzvLIaM=
-  email: garik.novel@gmail.com
-  provider: npm
