@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build",
-    "prepare": "yarn build",
+    "prepare": "yarn build"
   },
   "author": "Igor Kamyshev",
   "keywords": [
