@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/igorkamyshev/react-timeline-scribble.svg?branch=master)](https://travis-ci.org/igorkamyshev/react-timeline-scribble)
 [![npm version](https://badge.fury.io/js/react-timeline-scribble.svg)](https://badge.fury.io/js/react-timeline-scribble)
 
