@@ -23,7 +23,7 @@ export default {
   `,
   timeline: css`
     position: relative;
-    max-width: 46em;
+    max-width: 95%;
     list-style: none;
     &:before {
       background-color: black;
@@ -55,8 +55,8 @@ export default {
     padding: 2em 2em 0 2em;
     position: relative;
     top: -1.875em;
-    left: 4em;
-    width: 80%;
+    left: 2em;
+    width: 95%;
     h3 {
       font-size: 1.75em;
     }
