@@ -10,7 +10,7 @@ React Timeline component
 
 ## Usage
 
-[![Edit react-timeline-scribble-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/03r33x0oxl)
+[![Edit react-timeline-scribble-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/03r33x0oxl) [![Greenkeeper badge](https://badges.greenkeeper.io/igorkamyshev/react-timeline-scribble.svg)](https://greenkeeper.io/)
 
 ```js
 import React, { Fragment } from "react";
