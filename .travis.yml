@@ -1,17 +1,15 @@
 language: node_js
 node_js:
-  - node
-  - '9'
+- node
+- '9'
 cache: yarn
-
 script: echo 0
-
 deploy:
   provider: npm
-  email: "garik.novel@gmail.com"
+  email: igor@kamyshev.me
   skip_cleanup: true
   api_key:
-    secure: PABblN9ZRwS3Txl4f00Srj7GYCdM9ysv3NAnjeBK6IPxYvgIT0i6rAQlMkzOTnG5F0umKfQhE0Ivsqg5Roboff95LS/I7iM9eJlcoN/MjkuZ7gRy/BdRQEVexPCUmUpmRBEidwAlOoLDZf7dAu/kYSvLen/b0v6YLQgIyzVwi7CiSPaxAHe82GUhzUE1wfT2W8e78c80c5zH48WX6mTiDHp7rphqqiUEyuxbtRwN28LI8NL7o0wEYx02YAGfgdQy3yxC4YWJ/Y9SH8POgp4Z/ezCaD+dTJH5EXyZK/RE/8uVB6S5ouWm+L0dTmlaM/K3kpfXcp1FtZrlGJCmQApx2bes8JnltYBwDfAAttnYEufomGDRbXocYuOwddlw8FuRKRb6c7Cv1roaZdiixxa4/ZfEg7HAFpcpH2+J7njyR83fhDzrAvv9Bq94pn1udh6OblPhCMQXquCLyfM8v/LJQPh2OfKmDtccdsmzlsDakAaRUWfGOH0VpT26suMMNQ9Al9euJ5XurQxLQ7/GnwnwChR5uxXSNGzbDz+OG6TY6koLIcjoREx+rCzy7bk22ZF/ZB3zl0eTLh9nBwsMJXrA/DJVgNL0cLo9qcHpzv0ud5UvpIhVbu+aNGbQDjETTRBBxOk/c+nhif9MhqkN/nFkX8ethDHSxlvGN/AXBtSscJk=
+    secure: X0LSM9NJL9J6J0ojxLoTqF4drI48mpaVG36AUforRYjbhvyP9g+Rsw3zxY9kifi3wQ07PXnRPa3225KpdGaDGh9tAAb+GegoQBWkgYoY86GLAmjX0vVTMyygKVJt0m29/ing1aAq936Q1LVUV9fIsQcXHOuIOpVIVakS8TtF4STIXHw1mW35tjd2nZtfvsC2ZjlkhiUbTgWKC5vcApMJ7ZjLFIHP7AqatfoMfgd/uVZw2OB8IcrZGPYBHNc4rWqJBazWlz9Ihm9/n7KjM53oN5RFm6tjhYPJkMH9sVWvPji1MjwRh0s2aQ2yLd6y80e/HqPMaf5uUNp4mwyS69lT3hN6u0njFtmG5fTbLRiaZpC0GnjT7rZ8yvUYoBQ7G6obhT+8OOEHZp7qaUjLNqJI7fm0ne16fQBjDqyZhyLva0VRsf/K98NSgJmegytKb0hNiMaUr3IRmvdNUxCMKGpDKooNpwRlwXd9ibPuszFNj3CAmrJKAe3aIFwyfuBQs5TyXFTucxZWN5Tb3QRToe31nwCFaPMs1fHmLJgopjhv8HVCqYwOBBzrGrW5WI3MBrhs3q0Pc2DavLTY7492qf981UGdB5PjIHgv5tfm3bMNIGRUD8HiceYC28qW/TjLxpLToWzIUy4NC6vGNj0rgi8TSxBPkIyGcGmIAzHAbvWo5ng=
   on:
     tags: true
     repo: igorkamyshev/react-timeline-scribble
